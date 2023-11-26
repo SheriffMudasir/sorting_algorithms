@@ -1,5 +1,5 @@
 #include "sort.h"
-
+int partition(int *array, int low, int high, size_t size);
 void recursive_sort(int *array, int low, int high, size_t size);
 
 /**
