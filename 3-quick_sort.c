@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "sort.h"
+
+void quick_sort_recursive(int *array, int low, int high, size_t size);
 
 /**
  * quick_sort - Sorts an array of integers in ascending order using Quick Sort
@@ -13,6 +14,7 @@ void quick_sort(int *array, size_t size)
 
     quick_sort_recursive(array, 0, size - 1, size);
 }
+
 /**
  * quick_sort_recursive - Recursive helper function for Quick Sort
  * @array: The array to be sorted
